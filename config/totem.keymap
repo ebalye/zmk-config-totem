@@ -114,7 +114,7 @@
             bindings = <
         &kp ESC    &bt BT_CLR  &kp UP    &kp SLASH  &kp LESS_THAN    &kp GREATER_THAN  &kp BACKSLASH   &kp KP_N8  &kp KP_N9  &kp KP_PLUS
         &kp LSHFT  &kp LEFT    &kp DOWN  &kp MINUS  &kp LBKT         &kp RBKT          &kp UNDERSCORE  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp COLON  &kp LPAR         &kp RPAR          &kp QUESTION    &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
+&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp COLON  &kp LPAR         &kp RPAR          &kp QUESTION    &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &tog 4
                                &trans    &trans     &trans           &mo 3             &kp KP_N0       &trans
             >;
         };
@@ -190,10 +190,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp TAB    &kp I      &kp LC(LALT)  &kp O        &kp LC(F20)    &none  &none  &none  &none  &none
-       &lt 5 L    &kp LEFT   &kp LALT      &kp RIGHT    &kp SPACE      &none  &none  &none  &none  &none
-&kp J  &kp LSHFT  &kp LC(C)  &kp BSPC      &kp LC(V)    &kp LC(F19)    &none  &none  &none  &none  &none  &none
-                             &trans        &kp LC(F14)  &kp LC(F13)    &none  &none  &none
+         &kp Q         &kp I      &kp W   &kp E        &kp R        &none  &none  &none  &none  &none
+         &lt 5 LSHIFT  &kp A      &kp S   &kp D        &kp F        &none  &none  &none  &none  &none
+&kp ESC  &kp TAB       &kp LC(C)  &kp X   &kp LC(V)    &kp B        &none  &none  &none  &none  &none  &none
+                                  &trans  &kp LC(F14)  &kp SPACE    &none  &none  &none
             >;
         };
 
